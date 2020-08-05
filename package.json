@@ -1,0 +1,12 @@
+{
+  "name": "SlowControlDB",
+  "version": "1.0.0",
+  "dependencies": {
+    "highcharts": "^8.1.2",
+    "highcharts-export-server": "*",
+    "jquery": "*",
+    "requirejs": "*"
+  },
+  "main": "index.js",
+  "author": "Tessa Condon"
+}
