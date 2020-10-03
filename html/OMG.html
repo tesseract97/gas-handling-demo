@@ -1,25 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Gas Handling System Report</title>
-
+    <meta charset="UTF-8">
+    <title>OMG data</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="http://code.highcharts.com/stock/highstock.js"></script>
     <script src="https://code.highcharts.com/modules/series-label.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
 </head>
 <body>
-
-<p><a href="./html/OMG.html">OMG Visualizations</a></p>
-<p><a href="./html/BPT.html">BPT Visualizations</a></p>
-<p><a href="./html/IX1.html">IX1 Visualizations</a></p>
-<p><a href="./html/State.html">State Visualizations</a></p>
-<p><a href="./html/example_css.html">BPT Visualizations</a></p>
-<p><a href="./html/all_visualizations.html">All Gas Handling System Visualizations</a></p>
-
-
-
+<script data-main="../js/lib/OMG" src="../js/require.js"></script>
+<div id="OMG_psig_data" style="width:100%; height:400px;"></div>
+<div id="OMG_V_data" style="width:100%; height:400px;"></div>
 </body>
 </html>
